@@ -1,0 +1,36 @@
+html, body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    padding: 25px;
+    font-size: 120%;
+
+    
+    background-color: #E6E6FA ;
+}
+
+.main{
+    background-color: pink;
+    border-style: dotted;
+    margin: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+ img{
+   border: 1px solid pink;
+  width: 700px;
+  border-width: 15px;
+ }
+
+p{ color: purple; 
+ }
+span {text-decoration: underline;
+}
+
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-3px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
