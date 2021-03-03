@@ -1,0 +1,22 @@
+html, body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    padding: 25px;
+    font-size: 120%;
+    
+    background-color: #40E0D0 ;
+}
+
+.main{
+    background-color: white;
+    border-style: solid;
+    margin: 200px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+ img{
+   border: 1px solid pink;
+  width: 550px;
+  border-width: 15px;
+ }
+
+ 
