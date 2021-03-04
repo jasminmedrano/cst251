@@ -1,0 +1,51 @@
+html, body{
+	font-family: Helvetica, Verdana, Arial, "futuristic"
+	padding: 25px;
+	font-size: 120%;
+}
+body{
+	background-image: url("../images/widowmarker.jpg");
+	background-repeat: no-repeat;
+	background-attachment: top;
+	background-position: center;
+	background-size: 100%;
+	background-color: #99BBFF
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row: break-after: {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.main{
+	background-color: lime;
+	border-style: solid;
+	margin: 200px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+p{ color: lime;
+ }
+
+ img {
+  border: 1px solid lime;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
