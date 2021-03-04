@@ -1,0 +1,25 @@
+html, body{
+	font-family: Helvetica, Verdana, Arial, "futuristic"
+	padding: 25px;
+	font-size: 120%;
+}
+
+body{
+	background-image: url("../img/pinkanime.gif");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100%;
+	background-color: #FFE5B4
+}
+
+.main{
+	background-color: red;
+	border-style: solid;
+	margin: 200px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+p{ color: red;
+ }
