@@ -1,0 +1,34 @@
+html, body{
+	font-family: Helvetica, Verdana, Arial, "futuristic"
+	padding: 25px;
+	font-size: 120%;
+
+}
+body{
+	background-image: url("../images/spiritedaw.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-color: #FFE5B4
+}
+
+.main{
+	background-color: lightpink;
+	border-style: solid;
+	margin: 200px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+
+img{
+	border: 5px #FFE5B4;
+	width: 200px;
+	border-width: 15px;
+}
+
+p{ color: pink; 
+ }
+
+
+
