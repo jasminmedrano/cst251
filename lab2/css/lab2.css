@@ -3,6 +3,7 @@ html, body{
 	padding: 25px;
 	font-size: 120%;
 }
+
 body{
 	background-image: url("../images/wmaker.gif");
 	background-repeat: repeat;
@@ -11,7 +12,6 @@ body{
 	background-size: 55%;
 	background-color: #99BBFF
 }
-
 .column {
   float: left;
   width: 33.33%;
