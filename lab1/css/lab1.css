@@ -20,6 +20,12 @@ body{
 	margin-top: 10px;
 }
 
+h1,h2,title{
+	color: #301934;
+	font-size: 50px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
 
 img{
 	border: 5px #FFE5B4;
@@ -30,5 +36,17 @@ img{
 p{ color: #301934; 
  }
 
+ul li{
+	color:  #301934;
+}
+ 
+a:link {
+	color: #301934;
+	text-decoration: none;
+}
 
+a:hover{
+	color: purple;
+	text-decoration: underline;
+}
 
