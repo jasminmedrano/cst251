@@ -12,7 +12,7 @@ html, body{
 
 .main{
 	background-color: lightpink;
-	border-style:;
+	border-style: solid;
 	margin: 200px;
 	margin-bottom: 10px;
 	margin-top: 10px;
