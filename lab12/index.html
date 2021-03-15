@@ -1,0 +1,49 @@
+<html>
+	<head> 
+	<div id="content">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Robot">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style> 
+	body{
+		font-family: "Robot";
+	}
+	</style>
+		<title>Lab 12:Advance Block-level Styling 2</title>
+		<link rel="stylesheet" type="text/css" href="css/lab12.css">
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="../index.html">HOME</a>
+	</div>
+			<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+	</head>
+	<body>
+		<div class="main">
+			 <div id="header"><h1>Lab 12:Advance Block-level Styling 2</h1>
+			 	<p>The purpose of this lab was to learn more about styling blocks and seeing how centering some items in our files create a organized look.</p>
+			 </div>
+			<div id="header2"><h2>Challenges</h2>
+			<p>Some of my challenges were understanding how to float or where to float certian things without ruining my structure in my code.</p> 
+			</div>
+			<div id="header3"><h3>Problems</h3>
+			<p>Some of the bigger problems I had was making everything fall into place. Especially, with the float divs to go to the right or left. It made everything look wonky. After some experimenting I got it to look some what decent.</p>
+			</div>
+			<div id="header4"><h4>Results</h4>
+			<p>I guess people weren't lying that float divs are a pain in the ass. They look so great in other websites but as soon as you try it. It makes you want to cry in the corner of your room. I did enjoy learning more about styling blocks elements.</p>
+			</div>
+		<center>
+		<img src="images/shinobu.gif" height="200" width="400"> 
+		<img src="images/shinobu2.gif" height="200"> </center>
+	<script>
+	function openNav() {
+ 	 document.getElementById("mySidenav").style.width = "250px";
+	}
+
+	function closeNav() {
+  	document.getElementById("mySidenav").style.width = "0";
+	}
+	</script>
+		
+	</div>
+	</div>
+	</body>
+</html>
