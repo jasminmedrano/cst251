@@ -1,0 +1,93 @@
+html, body{
+	padding: 25px;
+	font-size: 1
+	height: 100%;
+	width: 100%;
+	background-image: url("../images/runnezuko.gif");
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+
+}
+
+.main{
+	margin: 200px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+h1,h2,h3,h4{
+	color: #021CA4;
+	font-size: 40px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#header{
+	width: 15px;
+	float: left-top;
+
+}
+
+#header2{
+	width: 15px;
+	float: left-bottom;
+}
+
+#header3{
+	width:15px;
+	float: right;
+}
+
+#header4{
+	width: 15px;
+	float: right-top;
+}
+
+.sidenav {
+  height: 100%; 
+  width: 300px; 
+  position: fixed;
+  z-index: 1; 
+  top: 0px; 
+  left: 0px;
+  right: 0px;
+  background-color: #021CA4; 
+  overflow-x: hidden;
+  transition: 0.5s; 
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 45px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: hotpink;
+}
+
+.sidenav .closebtn{
+	position: absolute;
+	top: 0;
+	right: 26px;
+	font-size: 35px;
+	margin-left: 50px;
+}
+
+.sidenav{
+	padding-top: 15px;
+	font-size: 18px;
+}
+
