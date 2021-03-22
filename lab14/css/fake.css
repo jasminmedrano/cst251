@@ -1,0 +1,65 @@
+body{
+  padding-bottom: 15px;
+  -
+}
+
+
+.LinkedIn {
+  position: absolute;
+  
+  left: 30px;
+  color: #ffffff;
+  padding-top: 530px;
+ 
+ 
+}
+
+.Instagram {
+  position: absolute;
+  left: 130px;
+  color: #ffffff;
+  padding-top: 530px;
+ 
+
+}
+
+.hello {
+  position: absolute;
+  right: 16px;
+  color: #ffffff;
+  right: 30px;
+  padding-top: 530px;
+  }
+
+.paragraph{
+   width: 17em; 
+  border: none;
+  word-wrap: normal;
+  color: #908D8D;
+  position: absolute;
+  top: 269px;
+  bottom: 100px;
+  left: 340px;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: left;
+  opacity: 0.5;
+  line-height: 1.6em;
+
+  
+
+
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+  
+.containerbackground { 
+  position: relative; 
+  top:50px;
+  left: -120px;
+  z-index: -1; 
+        } 
