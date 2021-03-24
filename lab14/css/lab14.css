@@ -1,0 +1,19 @@
+html, body{
+	padding: 25px;
+	font-size: 120%;
+	width: 100%;
+	background-image: url("../images/tired.png");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	background-size: cover;
+}
+
+
+h1,h2,h3,h4{
+	color: pink;
+}
+
+p{
+	color: #B0C4DE;
+}
