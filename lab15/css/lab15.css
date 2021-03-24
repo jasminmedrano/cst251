@@ -1,0 +1,84 @@
+body{
+	padding: 25px;
+	font-size: 120%;
+	width: 100%;
+	background-color: linear-gradient (to right, #2fcefa, #2fcefa, #f07fb2);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	background-size: cover;
+	border-bottom: 0px;
+
+}
+
+
+
+#grad1 {
+  height: 2000px;
+  background-color: red; 
+  background-image: linear-gradient(to right, skyblue, yellow, pink);
+}
+
+
+
+h1, h2, h3, h4 {
+  text-shadow: 0 0 3px #54f7cc, 0 0 5px #0900b5;
+}
+
+#rcorners1 {
+  border-radius: 25px;
+  background: #a6f5e1;
+  padding: 20px;
+  width: 160px;
+  height: 205px;
+}
+
+
+
+#rcorners2 {
+  border-radius: 25px;
+  background: #eef5a6;
+  padding: 20px;
+  width: 160px;
+  height: 250px;
+}
+
+
+
+#rcorners3 {
+	border-radius: 25px;
+	background: #ffb0b0;
+	padding: 20px;
+	width: 160px;
+	height:320px;
+
+}
+
+
+
+#rcorners4 {
+	border-radius: 25px;
+	background: #f2b0ff;
+	padding: 20px;
+	width: 160px;
+	height: 150px;
+}
+
+img{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	filter: invert(70%);
+}
+
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+div.shadow {
+	  width: 250px;
+  box-shadow: 0 5px 100px;
+  
+}
+
