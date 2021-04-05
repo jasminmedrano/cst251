@@ -1,0 +1,107 @@
+<html>
+
+	<head>
+
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Robot">
+
+		<meta name="viewport" content="width-device-width, intial=scale-1">
+
+		<style>
+
+		body{
+			font-family: "Robot";
+		}
+
+		</style>
+
+			<title>Lab 16: Fancy CSS 2</title>
+			
+			<link rel="stylesheet" type="text/css" href="css/lab16.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<script>
+		$(document).ready(function(){
+ 	 	$("button").click(function(){
+    	$("#div1").fadeIn();
+    	$("#div2").fadeIn("slow");
+    	$("#div3").fadeIn(3000);
+  		});
+		});
+		</script>
+
+
+
+	</head>
+
+
+		<div id="myNav" class="overlay">
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  		<div class="overlay-content">
+
+    		<a href="#">Hello</a>
+    		<a href="#">Welcome!</a>
+    		<a href="#">Thank you for visitng my page!</a>
+    		<a href="#">Have a great day!</a>
+
+ 		</div>
+ 		</div>
+
+ 	<body>
+
+
+		<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+
+		<script>
+
+			function openNav() {
+  			document.getElementById("myNav").style.width = "100%";
+			}
+
+			function closeNav() {
+  			document.getElementById("myNav").style.width = "0%";
+			}
+
+		</script>
+
+		<div id="grad1">
+			
+		</div>
+
+		<div class="row">
+ 		 	<div class="column" style="background-color:#ffe0e3;">
+
+    			<h2>Lab 16: CSS 2</h2>
+   				 	<p>We will be adding more to the css than the index html. We need to add more backgrounds, 2 transitions, animations, and columns. Try to make our css as creative and fun as possible.</p> 
+  			</div>
+
+  			<div class="column" style="background-color:#ffbac1;">
+    			<h2>Problems</h2>
+    				<p>I have some minor problems. Like trying to get my columns to be on the top rather than the bottom of my page without moving my color animation.</p>
+  			</div>
+
+  			<div class="column" style="background-color:#ff8c98;">
+    			<h2>Challenges</h2>
+    				<p>The challenge I had experience was trying to get the placement of everything to fall through correctly. I couldn't get the background color animation to go behind the whole column and box animation/transition. Hopefully in class I can learn what I did wrong and how to fix it.</p>
+  			</div>
+
+  			<div class="column" style="background-color:#ff6171;">
+    			<h2>Results</h2>
+    				<p>Even though it is not as fancy or perfect/organized as other classmates. I did enjoy learning new things and making it vibrant. I like working on the css rather the html.</p>
+  			</div>
+		</div>
+
+
+		<button>Click me to find a surprise!</button><br><br>
+
+			<div id="div1" style="width:80px;height:80px;display:none;background-color:#ff9ccd;"></div><br>
+			<div id="div2" style="width:80px;height:80px;display:none;background-color:yellow;"></div><br>
+			<div id="div3" style="width:80px;height:80px;display:none;background-color:#9cc7ff;"></div>
+
+
+
+			<div class="element"></div>
+
+ 	</body>
+</html>
