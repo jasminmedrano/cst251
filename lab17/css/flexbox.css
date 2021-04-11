@@ -1,0 +1,131 @@
+.page-wrapper{
+    max-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+nav ul{
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    display:block;
+    margin-bottom: 4px;
+    background-color: #df5de8;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3em;
+
+ }
+
+
+.top-banner{
+    width: 100%;
+    height: 240px;
+    background-image: url("../images/sakura2.gif");
+    background-size:auto;
+    padding-top: 20px;
+}
+
+
+.top-banner h1, h2{
+    font-size: 150px;
+    padding-top: 83px;
+    text-align: left;
+    color: #ffb8c4;
+    font-family:allura;
+    font-style: italic;
+    font-weight: 400;
+}
+
+* {
+        margin: 0;
+        padding: 0;
+        
+    }
+
+
+
+.footer {
+    border: 5px solid #ffb8c4;
+    display: flex;
+    background-color: #df5de8;
+    justify-content: 5px;
+    padding: 5px;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    color: #ffb8c4;
+    font-size: 30px;
+
+}
+    
+.list1{
+    font-size: 30px;
+    color: #ffb8c4;
+}
+
+
+h3, p1{
+    font-size: 20px;
+    color:  #df5de8;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: Purple;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+
+}
+
+.flex-container2 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: Purple;
+}
+
+.flex-container2 > div {
+  background-color: #f1f1f1;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+
+}
+
+.footer {
+    border: 5px solid #ffb8c4;
+    display: flex;
+    background-color: #df5de8;
+    justify-content: 5px;
+    padding: 5px;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    color: #ffb8c4;
+    font-size: 30px;
+
+}
