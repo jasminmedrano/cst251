@@ -1,3 +1,130 @@
-		.body{
-	
+.page-wrapper{
+	max-width: auto;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+nav ul{
+	text-align: center;
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    display:block;
+    margin-bottom: 4px;
+    background-color: #df5de8;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3em;
+
+ }
+
+ @media screen and (min-width:768px){
+    nav a{
+        width: 25%;
+        float: left;
+    }
+}
+
+
+@media screen and (min-width:960px){
+    .container-feature {
+        
+        margin-left: 1%;
+        margin-right: 1%;
+        float:left;
+    }
+}
+* {
+  box-sizing: border-box;
+
+}
+
+.box {
+  float: left;
+  border: 5px solid #ffb8c4;
+  width: 33.33%;
+  padding: 50px;
+  padding-bottom: 50px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.top-banner{
+    width: 100%;
+    height: 240px;
+    background-image: url("../images/sakura2.gif");
+    background-size:auto;
+    padding-top: 20px;
+}
+
+
+.top-banner h1, h2{
+    font-size: 150px;
+    padding-top: 83px;
+    text-align: left;
+    color: #ffb8c4;
+    font-family:allura;
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+p{
+	font-size: 25px;
+}
+* {
+        margin: 0;
+        padding: 0;
+        
+    }
+
+.column {
+  float: left;
+  width: 32%;
+  padding: 4px;
+    text-align: center;
+    
+  
+}
+
+
+.footer {
+    border: 5px solid #ffb8c4;
+    display: flex;
+    background-color: #df5de8;
+    justify-content: 5px;
+    padding: 5px;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    color: #ffb8c4;
+    font-size: 30px;
+
+}
+    
+.list1{
+    font-size: 30px;
+    color: #ffb8c4;
+}
+
+
+h3, p1{
+    font-size: 20px;
+    color:  #df5de8;
 }
