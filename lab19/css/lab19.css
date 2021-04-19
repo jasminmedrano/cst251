@@ -1,11 +1,48 @@
-html, body{
+ body{
 	padding: 25px;
 	font-size: 1
 	height: 100%;
 	width: 100%;
-	background-color: url("../images/cotton.jpeg");
-	background-repeat: none;
+	background-color: #fcfcec;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: cover;
-	font-weight: thick;
+	background-position: center;
+	background-size: 100%;
+	
+}
+
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    display:block;
+    margin-bottom: 4px;
+    background-color: #f7a9a3;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: bad-script;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+.my-row{
+	border: 5px solid pink;
+	height: 150px;
+	width: 800px;
+}
+
+.my-col{
+	border: 3px solid pink;
+	
+	
+}
+h1{
+	text-align: center;
+	font-weight: 150;
+
 }
